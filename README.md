@@ -4,7 +4,7 @@
 ```bash
 python3 exp.py -u url
 
-python3 main.py -f filename
+python3 exp.py -f filename
 ```
 ![image](https://github.com/Qlearin/ecology9-OA-browser.js-SQLI/blob/main/pic.png?raw=true)
 基于公开的漏洞exp进行编写
