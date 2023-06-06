@@ -1,4 +1,4 @@
-# 泛微OA9 browser.jsp SQL注入 批量利用工具
+# 泛微 ecology browser.jsp SQL注入 批量利用工具
 ##### Usage:
 
 ```bash
