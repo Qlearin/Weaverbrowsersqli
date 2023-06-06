@@ -19,7 +19,7 @@ def browser(victim):
 
 def main():
     if len(sys.argv) < 3:
-        print('-u\t目标地址\te.g: python exp.py http://example.com\n-w\t文件名\te.g: python exp.py -w list.txt')
+        print('-u\t目标地址\te.g: python exp.py http://example.com\n-f\t文件名\te.g: python exp.py -w list.txt')
         return
 
     option = sys.argv[1]
@@ -27,7 +27,7 @@ def main():
 
     if option == '-u':
         browser(value)
-    elif option == '-w':
+    elif option == '-f':
         try:
             with open(value, 'r') as file:
                 urls = file.readlines()
